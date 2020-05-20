@@ -1,5 +1,5 @@
 from django.db import models
-from apps.product.models import Product
+from django_with_docker.apps.product.models import Product
 
 
 class FoodTruck(models.Model):

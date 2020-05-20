@@ -63,11 +63,11 @@ DJANGO_APPS = [
     "django.contrib.admin",
     "django.forms",
     # Own apps
-    "apps.food_truck",
-    "apps.invoice",
-    "apps.order",
-    "apps.product",
-    "apps.state",
+    "django_with_docker.apps.food_truck",
+    "django_with_docker.apps.invoice",
+    "django_with_docker.apps.order",
+    "django_with_docker.apps.product",
+    "django_with_docker.apps.state",
 ]
 
 THIRD_PARTY_APPS = [

@@ -1,8 +1,8 @@
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, ListView
 
-from apps.order.forms import OrderForm
-from apps.order.models import Order
+from django_with_docker.apps.order.forms import OrderForm
+from django_with_docker.apps.order.models import Order
 
 
 class CreateOrder(CreateView):

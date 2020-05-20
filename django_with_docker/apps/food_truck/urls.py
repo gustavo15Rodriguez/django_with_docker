@@ -1,6 +1,5 @@
 from django.urls import path
-
-from apps.food_truck import views
+from django_with_docker.apps.food_truck import views
 
 urlpatterns = [
     path('create_food_truck/', views.CreateFoodTruck.as_view(), name='create_food_truck'),

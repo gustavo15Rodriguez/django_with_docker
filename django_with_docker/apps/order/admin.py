@@ -1,5 +1,5 @@
 from django.contrib import admin
 
-from apps.order.models import Order
+from django_with_docker.apps.order.models import Order
 
 admin.site.register(Order)

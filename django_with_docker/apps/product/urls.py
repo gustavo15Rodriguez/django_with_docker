@@ -1,6 +1,5 @@
 from django.urls import path
-
-from apps.product import views
+from django_with_docker.apps.product import views
 
 urlpatterns = [
     path("create_product/", views.CreateProduct.as_view(), name='create_product'),

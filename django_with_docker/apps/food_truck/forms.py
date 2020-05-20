@@ -1,5 +1,5 @@
 from django import forms
-from apps.food_truck.models import FoodTruck
+from django_with_docker.apps.food_truck.models import FoodTruck
 
 
 class FoodTruckForm(forms.ModelForm):

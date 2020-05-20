@@ -1,6 +1,5 @@
 from django.db import models
-
-from apps.order.models import Order
+from django_with_docker.apps.order.models import Order
 
 STATE = [
     ('OH', 'On hold'),

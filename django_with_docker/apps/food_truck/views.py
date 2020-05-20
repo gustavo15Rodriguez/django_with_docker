@@ -1,7 +1,7 @@
 from django.views.generic import CreateView, ListView, UpdateView, DeleteView
 
-from apps.food_truck.forms import FoodTruckForm
-from apps.food_truck.models import FoodTruck
+from django_with_docker.apps.food_truck.forms import FoodTruckForm
+from django_with_docker.apps.food_truck.models import FoodTruck
 
 
 class CreateFoodTruck(CreateView):

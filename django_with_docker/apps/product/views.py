@@ -1,7 +1,7 @@
 from django.views.generic import CreateView, ListView, UpdateView, DeleteView
 
-from apps.product.forms import ProductForm
-from apps.product.models import Product
+from django_with_docker.apps.product.forms import ProductForm
+from django_with_docker.apps.product.models import Product
 
 
 class CreateProduct(CreateView):

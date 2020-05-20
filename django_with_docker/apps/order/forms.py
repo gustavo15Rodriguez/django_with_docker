@@ -1,6 +1,6 @@
 from django import forms
 
-from apps.order.models import Order
+from django_with_docker.apps.order.models import Order
 
 
 class OrderForm(forms.ModelForm):

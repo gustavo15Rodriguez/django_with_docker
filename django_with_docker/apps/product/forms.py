@@ -1,6 +1,6 @@
 from django import forms
 
-from apps.product.models import Product
+from django_with_docker.apps.product.models import Product
 
 
 class ProductForm(forms.ModelForm):
